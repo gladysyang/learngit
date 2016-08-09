@@ -1,0 +1,66 @@
+.register-title {
+	width: 98%;
+    height: 5%;
+    background-color: lightgray;
+    margin-bottom: 10%;
+}
+.register-div {
+	width: 470px;
+    height: 280px;
+	background-color: gray;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.register-div .name {
+	width: 70%;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+}
+.register-div .name input{
+	width: 65%;
+}
+.register-div .password {
+	width: 70%;
+	position: absolute;
+	top: 30%;
+    left: 15%;
+}
+.register-div .password input{
+	width: 65%;
+}
+.register-div .confirm-password {
+	width: 75%;
+	position: absolute;
+	top: 45%;
+    left: 10%;
+}
+.register-div .confirm-password input{
+	width: 60%;
+}
+.register-div .email {
+	width: 75%;
+	position: absolute;
+	top: 60%;
+    left: 18%;
+}
+.register-div .email input{
+	width: 60%;
+}
+.register-div .register {
+	width: 30%;
+	position: absolute;
+	top: 80%;
+	left: 40%;
+}
+.register-div .register input{
+	width: 45%;
+	background-color: skyblue;
+}
+.register-div .register .submit{
+	margin-right: 10px;
+}
+.register-div span {
+	color: red;
+}

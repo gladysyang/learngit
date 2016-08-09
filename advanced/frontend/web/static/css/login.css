@@ -1,0 +1,102 @@
+.login-title {
+	width: 98%;
+    height: 5%;
+    background-color: lightgray;
+    margin-bottom: 10%;
+    position: relative;
+}
+.login-title .time-label {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+.login-div {
+	width: 400px;
+	height: 200px;
+	background-color: lightgray;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.login-div .name {
+	width: 60%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.login-div .name input{
+	width: 65%;
+}
+.login-div .password {
+	width: 60%;
+	position: absolute;
+	top: 40%;
+    left: 20%;
+}
+.login-div .password input{
+	width: 65%;
+}
+.login-div .remember-password {
+	width: 60%;
+	position: absolute;
+	top: 55%;
+    left: 25%;
+    color: black;
+}
+.login-div .remember-password #forget_me{
+	cursor: pointer;
+}
+.login-div .submit {
+	width: 10%;
+	position: absolute;
+	top: 70%;
+	left: 40%;
+}
+.login-div .message {
+	color: red;
+	width: 60%;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+.login-div .submit input {
+	background-color: skyblue;
+}
+.login-div .register {
+	width: 20%;
+	position: absolute;
+	top: 70%;
+	left: 55%;
+}
+.login-div .register a {
+	text-decoration: none;
+}
+.forget-div {
+	width: 400px;
+	height: 200px;
+	background-color: lightgray;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.forget-div .forget-message{
+	width: 60%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.forget-div .email {
+	width: 60%;
+	position: absolute;
+	top: 40%;
+    left: 20%;
+}
+.forget-div .forget {
+	width: 14%;
+	position: absolute;
+	top: 60%;
+	left: 45%;
+}
+.forget-div .message{
+	color: red;
+}

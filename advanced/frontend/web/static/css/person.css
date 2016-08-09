@@ -1,0 +1,156 @@
+/*个人信息管理*/
+.person-information {
+    width: 98%;
+    margin: 0 auto;
+}
+.title {
+    width: 98%;
+    height: 5%;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    position: relative;
+}
+.title .time-label {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+.title .logout{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.information {
+    width: 98%;
+    
+    border: 1px solid gray;
+}
+.information .information-head {
+    width: 98%;
+}
+.information .information-head th {
+    width: 15%;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #AFD2E0;
+    font-size: 14px;
+    font-weight: normal;
+}
+.information tr {
+    background-color: #D1D2D2; 
+    height: 50px;
+}
+
+.information tr:nth-child(2n) {
+    background-color: white; 
+}
+.information .information-head td {
+    width: 15%;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13px;
+}
+.information .information-head td img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.information .information-head td .operation-modify {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.information .information-head td .operation-delete {
+    float: right;
+    width: 23px;
+    height: 23px;
+    margin-right: 20%;
+    cursor: pointer;
+}
+.operation {
+    position: relative;
+    height: 30px;
+    width: 98%;
+}
+.operation .operation-add {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+}
+.operation .select-form {
+    border: 1px solid gray;
+    width: 15%;
+    height: 25px;
+    position: absolute;
+    right: 0px;
+}
+.operation .operation-select-text {
+    border: none;
+    width: 85%;
+    height: 23px;
+}
+.operation .operation-select {
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.add-div {
+    width: 33%;
+    height: 300px;
+    background-color: #DADEE2;
+    margin: 0 auto;
+    position: relative;
+}
+.add-div .add-form{
+    position: absolute;
+    top: 40px;
+    left: 25%;
+}
+
+.add-div .add-form div {
+    margin-bottom: 10px;
+}
+.add-div .add-form .button-div {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+.add-div .add-form .gender-two{
+    margin-left: 5px;
+}
+.add-div .add-form .reset {
+    margin-left: 5px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.add-div .add-form .submit {
+    background-color: skyblue;
+    cursor: pointer;
+}
+.message {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.message font {
+    color: red;
+    size: 6;
+}
+.pagination {
+    width: 70%;
+    position: relative;
+
+}
+.pagination ul {
+    position: absolute;
+    left: 50%;
+}

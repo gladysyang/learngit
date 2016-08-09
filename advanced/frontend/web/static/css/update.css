@@ -1,0 +1,45 @@
+.update-div {
+    width: 33%;
+    height: 300px;
+    background-color: #DADEE2;
+    margin: 0 auto;
+    position: relative;
+}
+.update-div .update-form{
+    position: absolute;
+    top: 70px;
+    left: 30%;
+}
+.update-div .image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.update-div .update-image {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.update-div .update-form div {
+    margin-bottom: 10px;
+}
+.update-div .update-form .button-div {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+.update-div .update-form .gender-two{
+    margin-left: 5px;
+}
+.update-div .update-form .reset {
+    margin-left: 5px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.update-div .update-form .submit {
+    background-color: skyblue;
+    cursor: pointer;
+}
